@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Font Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,900&display=swap" rel="stylesheet">
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg justify-content-between ">
+        <a href="#home" class="navbar-brand"><img src="image/svg/Logo.png" alt="logo of the company" class="navbar-brand logo" ></a>
+        <ul class="navbar-nav nav-sm-primary me-5 py-1 fw-bolder">
+            <li class="nav-list mx-2"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-list mx-2"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-list mx-2"><a href="#job" class="nav-link">Jobs</a></li>
+            <li class="nav-list mx-2"><a href="#post-vacancy" class="nav-link">Post Vacancy</a></li>
+            <li class="nav-list mx-2"><a href="#contact" class="nav-link">Contact</a></li>
+            <svg class="svg-icon"><use xlink: href="image/svg/bootstrap-icons.svg#moon"></use></svg>
+            <button class=" btn btn-primary btn-sm btn-sm-primary px-3 py-0 mx-2 btn-primary-bg">Login</button>
+        </ul>
+    </nav>
+    <!-- Banner Section -->
+    <div class="container d-flex  flex-column align-items-center justify-content-between mt-2 outbox">
+        <h1 class="h2 text-dark-color fw-bolder mt-4 mb-3">All Ethiopian Jobs in One Place.</h1>
+        <h5 class="h6 text-capitalize mb-3 nav-sm-primary fw-bold">Find career opportunities in Ethiopia</h5>
+        <div class="input-group input-group-lg  mb-4 w-30">
+            <input type="text" class="form-control" placeholder="Jop Title, City or Keyword" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <span class="input-group-text btn-primary-bg" id="basic-addon2">
+                <div class="d-flex align-items-center">
+                    <svg class="svg-icon"><use xlink: href="image/svg/bootstrap-icons.svg#search"></use></svg>
+                    <div class=" btn-sm-secondery px-2 fw-bolder text-white">Find Jobs</div>
+                </div>
+            </span>
+          </div>
+          <div class="d-flex justify-content-between w-30 px-3 fw-bold">
+              <div class="d-flex flex-column align-items-center">
+                <div class="fs-5 text-green-color">902</div>
+                <div class="nav-sm-primary">jobs</div>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <div class="fs-5 text-green-color">322</div>
+                <div class="nav-sm-primary">Enterprises</div>
+              </div>
+              <div class="d-flex flex-column align-items-center">
+                <div class="fs-5 text-green-color">15</div>
+                <div class="nav-sm-primary">Sectors</div>
+              </div>
+          </div>
+          <img src="image/banner-background.png" alt="" class="w-60 mt-5">
+          <!-- Career Selector -->
+          <h1 class="h2 text-dark-color fw-bolder mt-4 mb-3 mt-5">Career sectors</h1>
+          <h5 class="h6 text-capitalize mb-4 nav-sm-primary fw-bold text-light-gray">Based on the local labor market trend in Ethiopian we categorize our vacancies into fourteen sectors</h5>
+          <!--  -->
+          <div class="row text-center text-capitalize fs-4 lead row-cols-lg-6 gy-4 row-cols-md-4 row-cols-sm-2 row-cols-1 d-flex justify-content-center my-4">
+             <div class=" col">
+              <div class="box bg-white py-3 rounded h-100 px-2">
+                <img src="image/icon-1.webp" alt="" class="card-img">
+                <div class="icon-text-size text-green-color fw-bold my-1">Natural Science</div>
+                <div class="nav-sm-primary">14 Position Open</div>
+              </div>
+             </div>
+             <div class=" col">
+                <div class="box bg-white pt-3  round h-100 px-3 ">
+                  <img src="image/icon-3.webp" alt="" class="card-img">
+                  <div class="icon-text-size text-green-color fw-bold my-1"> Business</div>
+                  <div class="nav-sm-primary">217 Position Open</div>
+                </div>
+              </div>
+              <div class=" col">
+                <div class="box bg-white py-3 rounded h-100 px-3">
+                  <img src="image/icon-3.webp" alt="" class="card-img">
+                  <div class="icon-text-size text-green-color fw-bold my-1">Creative Art</div>
+                  <div class="nav-sm-primary">21 Position Open</div>
+                </div>
+              </div>
+              <div class=" col">
+                <div class="box bg-white py-3 rounded h-100 px-3">
+                  <img src="image/icon-4.webp" alt="" class="card-img">
+                  <div class="icon-text-size text-green-color fw-bold my-1">Education </div>
+                  <div class="nav-sm-primary">74 Position Open</div>
+                </div>
+              </div>
+              <div class=" col">
+                <div class="box bg-white py-3 rounded h-100 px-3">
+                  <img src="image/icon-5.webp" alt="" class="card-img">
+                  <div class="icon-text-size text-green-color fw-bold my-1">Hospitality</div>
+                  <div class="nav-sm-primary">14 Position Open</div>
+                </div>
+              </div>
+              <div class=" col">
+                <div class="box bg-white py-3 rounded h-100 px-3">
+                  <img src="image/icon-6.webp" alt="" class="card-img">
+                  <div class="icon-text-size text-green-color fw-bold ">Low and Medium Skills Worker </div>
+                  <div class="nav-sm-primary">14 Position Open</div>
+                </div>
+              </div>
+              <div class=" col">
+                <div class="box bg-white py-2 rounded h-100 px-3">
+                  <img src="image/icon-7.webp" alt="" class="card-img">
+                  <div class="icon-text-size text-green-color fw-bold my-1">Transportation & Logestic </div>
+                  <div class="nav-sm-primary">14 Position Open</div>
+                </div>
+              </div>
+              <div class=" col">
+                <div class="box bg-white py-3 rounded h-100 px-3">
+                  <img src="image/icon-8.webp" alt="" class="card-img">
+                  <div class="icon-text-size text-green-color fw-bold my-1">Engineering</div>
+                  <div class="nav-sm-primary">14 Position Open</div>
+                </div>
+              </div>
+              <div class=" col">
+                <div class="box bg-white py-3 rounded h-100 px-3">
+                  <img src="image/icon-9.webp" alt="" class="card-img">
+                  <div class="icon-text-size text-green-color fw-bold my-1">Finance</div>
+                  <div class="nav-sm-primary">14 Position Open</div>
+                </div>
+              </div>
+              <div class=" col">
+                <div class="box bg-white py-3 rounded h-100 px-3">
+                  <img src="image/icon-10.webp" alt="" class="card-img">
+                  <div class="icon-text-size text-green-color fw-bold my-1">Legal Service</div>
+                  <div class="nav-sm-primary">14 Position Open</div>
+                </div>
+              </div>
+              <div class=" col">
+                <div class="box bg-white py-3 rounded h-100 px-3">
+                  <img src="image/icon-11.webp" alt="" class="card-img">
+                  <div class="icon-text-size text-green-color fw-bold my-1">Ict</div>
+                  <div class="nav-sm-primary">14 Position Open</div>
+                </div>
+              </div>
+              <div class=" col">
+                <div class="box bg-white py-3 rounded h-100 px-3">
+                  <img src="image/icon-12.webp" alt="" class="card-img">
+                  <div class="icon-text-size text-green-color fw-bold my-1">Health Care</div>
+                  <div class="nav-sm-primary">14 Position Open</div>
+                </div>
+              </div>
+              <div class=" col">
+                <div class="box bg-white py-3 rounded h-100 px-3">
+                  <img src="image/icon-13.webp" alt="" class="card-img">
+                  <div class="icon-text-size text-green-color fw-bold my-1">Manufacturing</div>
+                  <div class="nav-sm-primary">14 Position Open</div>
+                </div>
+              </div>
+              <div class=" col">
+                <div class="box bg-white py-3 rounded h-100 px-3">
+                  <img src="image/icon-14.webp" alt="" class="card-img">
+                  <div class="icon-text-size text-green-color fw-bold my-1">Social Science</div>
+                  <div class="nav-sm-primary">14 Position Open</div>
+                </div>
+              </div> 
+          </div>
+          <!--  -->
+          </div>
+    <div class="container text-left">
+        <div class="row g-5">
+            <div class="col-md-6 py-5">
+                <h1 class="h1 fw-bolder text-dark-color py-2">What is unique about HaHuJobs</h1>
+                <p class="nav-sm-primary fw-bold text-light-gray lh-lg">HaHuJobs Primary services are deployments targeting the needs of the Ethiopian jobseeker, with both online and assisted models the platform is tool intended to assist the process of looking for a job at all levels of employment. It features vacancy aggregation and posting from various sources as well as enterprises, builds career profiles, apply for jobs, and subscribe to customized alerts for each user via a channel of their choice. HaHuJobs primary also offers standardized classification of all vacancies both sourced from HaHuJobs enterprise services and other manual and digital vacancy platforms.</p>
+                <p class="nav-sm-primary fw-bold mt-3 text-light-gray lh-lg">Our vacancy classification follows a combination of ILOs ISCO 8 and the O*Net occupation classification with modifications to the Ethiopian labor market trend. Each vacancy will be given a four-digit occupation taxonomy identification code to determine it's overall standard requirements in terms of skill, knowledge, ability, and expected activities.</p>
+                <p class="nav-sm-primary fw-bold text-light-gray lh-lg">Get Social with us !</p>
+                <a href="" class="btn btn-primary btn-primary-bg btn-sm-primary fw-bold">Explore More <svg class="svg-icon "><use xlink: href="image/svg/bootstrap-icons.svg#arrow-right"></use></svg></a>
+                <div class="d-flex mt-3">
+                    <svg class="svg-link me-4"><use xlink: href="image/svg/bootstrap-icons.svg#telegram"></use></svg>
+                    <svg class="svg-link me-4"><use xlink: href="image/svg/bootstrap-icons.svg#twitter"></use></svg>
+                    <svg class="svg-link me-4"><use xlink: href="image/svg/bootstrap-icons.svg#facebook"></use></svg>
+                    <svg class="svg-link me-4"><use xlink: href="image/svg/bootstrap-icons.svg#tiktok"></use></svg>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+                <img src="image/unique_about.png" alt="" class="img-card">
+            </div>
+          </div>
+
+          <!-- why Choes Us -->
+          <div class="row mb-5">
+            <div class="col-md-6 d-flex align-items-center justify-content-center">
+              <img src="image/why-choose_us.png" alt="" class="img-card">
+            </div>
+            <div class="col-md-6">
+              <h2 class="h2 fw-bolder text-dark-color">Why choose us</h2>
+              <div class="my-3">
+                <h4 class="h4 text-green-color fw-bolder">Convenience</h4>
+                <h6 class="h6 text-green-color fw-bold icon-text-size">You no longer look for jobs, jobs look for you</h6>
+                <p class="nav-sm-primary fw-bold mt-3 text-light-gray lh-lg">We offer aggregated, standardized and quality assure vacancy and career-related information from various digital as well as manual sources to set them into one searchable database.</p>
+              </div>
+              <div class="my-3">
+                <h4 class="h4 text-green-color fw-bolder">Accessibility</h4>
+                <h6 class="h6 text-green-color fw-bold icon-text-size">Reachable across multiple channels and platforms</h6>
+                <p class="nav-sm-primary fw-bold mt-3 text-light-gray lh-lg">Use your mobile, tablet, or desktop to access our website, mobile app, Telegram, or Facebook bots and also get personalized job alerts via your designated medium.</p>
+              </div>
+              <div class="my-3">
+                <h4 class="h4 text-green-color fw-bolder">Ease of use</h4>
+                <h6 class="h6 text-green-color fw-bold icon-text-size">Both online and offline service options.</h6>
+                <p class="nav-sm-primary fw-bold mt-3 text-light-gray lh-lg">HaHuJobs offers both in-person as well as virtual models for all its career-related service components through its employment offices across the nation and capital Addis Ababa.</p>
+              </div>
+            </div>
+          </div>
+          <!-- Post Vacancy -->
+          <h2 class="h2 text-dark-color fw-bolder text-center pt-3">Post vacancy</h2>
+          <p class="nav-sm-primary fw-bold mt-3 text-light-gray lh-lg text-center">HaHuJobs offers dedicated enterprise cloud services for a full human resource management platform with an<br> affordable price package. Posting vacancy is completely free, and only requires to follow the below listed steps.</p>
+          <div class="container text-center">
+            <div class="row  mx-5">
+              <div class="col-md-4 px-4">
+                <svg class="card-icon-size"><use xlink: href="image/svg/bootstrap-icons.svg#1-circle-fill"></use></svg>
+                <div class="nav-sm-primary fw-bold mt-3 text-light-gray lh-lg">Receive</div>
+                <p class="btn-sm-primary">You contact us through one of our outlets with the detailsof your vacancy. You can click the button below to reviewways to share your vacancy and review the required information we need to publish your vacancy on all our outlets.</p>
+              </div>
+              <div class="col-md-4 px-4">
+                <svg class="card-icon-size"><use xlink: href="image/svg/bootstrap-icons.svg#2-circle-fill"></use></svg>
+                <div class="nav-sm-primary fw-bold mt-3 text-light-gray lh-lg">Validate</div>
+                <p class="btn-sm-primary">Our service officers will receive the details from your organization via the channel you communicated it in. They will review the details provided to validate all required information is available and build validate the legitimacy of the vacancy.</p>
+              </div>
+              <div class="col-md-4 px-4">
+                <svg class="card-icon-size"><use xlink: href="image/svg/bootstrap-icons.svg#3-circle-fill"></use></svg>
+                <div class="nav-sm-primary fw-bold mt-3 text-light-gray lh-lg">Publish</div>
+                <p class="btn-sm-primary">All vacancy details will then go through our standardized categorization process for taxonomy identification and reorganization of information if required so it fits the publishing structure of our outlets, then will be approved for publishing.</p>
+              </div>
+            </div>
+            <!-- post Vacancy -->
+            <a href="" class="btn text-white btn-primary btn-primary-bg btn-sm-primary fw-bold mt-2">Post Vacancy</a>
+            <div class="d-flex justify-content-center align-items-center">
+              <div class=" text-center mx-5 my-3">
+                <div class="text-green-color h2 fw-bolder">1098</div>
+                <div class="text-dark-color fw-bold nav-sm-primary">Jobs</div>
+              </div>
+              <div class=" text-center mx-5">
+                <div class="text-green-color h2 fw-bolder">350</div>
+                <div class="text-dark-color fw-bold nav-sm-primary">Enterprises</div>
+              </div>
+              <div class=" text-center mx-5">
+                <div class="text-green-color h2 fw-bolder">15</div>
+                <div class="text-dark-color fw-bold nav-sm-primary">Sectors</div>
+              </div>
+            </div>
+            <!-- News and Evenst -->
+            <h2 class="h2 fw-bolder text-dark-color mt-5 mb-4">News & Events</h2>
+            <div class="row  row-cols-md-3 g-5">
+              <div class="col text-start">
+                <div class="card">
+                  <img src="image/card-1" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a class="btn-primary-bg text-white btn-sm-primary text-decoration-none rounded-pill px-2 py-1">HaHuJobs News</a>
+                    <p class="text-dark-color nav-sm-primary fw-bold pt-2">7 December 2022</p>
+                    <h6 class="icon-text-size fw-bold">HaHuJobs Addis Ababa Employment Center...</h4>
+                    <p class="card-text text-light-gray nav-sm-primary fw-semibold pt-1">We are launching our employment center services soon!! The establishment is intended to serve jobseekers via scheduled visits to offer them both self and assisted CV building as well ..</p>
+                   <div class="text-center">
+                     <a href="" class="btn btn-primary btn-primary-bg btn-sm-primary fw-bold">Read Post <svg class="svg-icon "><use xlink: href="image/svg/bootstrap-icons.svg#arrow-right"></use></svg></a>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col text-start">
+                <div class="card">
+                  <img src="image/card-2.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a class="btn-primary-bg text-white btn-sm-primary text-decoration-none rounded-pill px-2 py-1"> Guides</a>
+                    <p class="text-dark-color nav-sm-primary fw-bold pt-2">16 September 2022</p>
+                    <h6 class="icon-text-size fw-bold">How can you post a vacancy on HaHuJobs?</h4>
+                    <p class="card-text text-light-gray nav-sm-primary fw-semibold pt-1">As of mind September 2022, we have offered an open vacancy post-request submission portal that allows employers to publish vacancies on all HaHuJobs outlets</p>
+                   <div class="text-center">
+                     <a href="" class="btn btn-primary btn-primary-bg btn-sm-primary fw-bold">Read Post <svg class="svg-icon "><use xlink: href="image/svg/bootstrap-icons.svg#arrow-right"></use></svg></a>
+                   </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col text-start">
+                <div class="card">
+                  <img src="image/card-3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <a class="btn-primary-bg text-white btn-sm-primary text-decoration-none rounded-pill px-2 py-1">New Feature </a>
+                    <p class="text-dark-color nav-sm-primary fw-bold pt-2">10 September 2022</p>
+                    <h6 class="icon-text-size fw-bold">Our new year's gift, new features from...</h4>
+                    <p class="card-text text-light-gray nav-sm-primary fw-semibold pt-1">Happy Ethiopian New Year!! Our development teams have worked hard to provide our users with new features to offer much-needed insights and automation.</p>
+                   <div class="text-center">
+                     <a href="" class="btn btn-primary btn-primary-bg btn-sm-primary fw-bold">Read Post <svg class="svg-icon "><use xlink: href="image/svg/bootstrap-icons.svg#arrow-right"></use></svg></a>
+                   </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="" class="btn btn-primary btn-primary-bg btn-sm-primary fw-bold mt-4 px-4"> More Blog's <svg class="svg-icon "><use xlink: href="image/svg/bootstrap-icons.svg#box-arrow-in-up-right"></use></svg></a>
+          </div>
+        </div>
+          <!-- Footer -->
+          <footer class="footer bg-white pt-5 mt-5">
+            <div class="container">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="">
+                  <div class="icon-text-size text-dark-color text-decoration-underline fw-bold">Get Started</div>
+                  <div class="nav-sm-primary fw-bold  text-light-gray lh-lg">Sign Up</div>
+                  <div class="nav-sm-primary fw-bold  text-light-gray lh-lg">Login</div>
+                </div>
+                <div class="">
+                  <div class="icon-text-size text-dark-color text-decoration-underline fw-bold"> Quick Links</div>
+                  <div class="nav-sm-primary fw-bold  text-light-gray lh-lg">HaHuJobs[</div>
+                  <div class="nav-sm-primary fw-bold  text-light-gray lh-lg">Minab Tech</div>
+                </div>
+                <div class="flex-50">
+                  <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" class="w-[97px] h-[74px] footer-svg pb-1" style="enable-background:new 0 0 857.8 331.8" viewBox="0 0 857.8 331.8"><path d="M453.6 176.7h-11.9l-2.2-93.5-19.5 56.4-19.2-56.3-2.5 93.5h-11.8l3.4-112.1h14l16.2 47.5 16.1-47.5h14.1l3.3 112zM541.7 176.7H500v-10.1h15.1V74.7H500V64.6h41.7v10.1h-15.3v91.9h15.3v10.1zM651.8 176.7h-15l-33.6-94.5-.3-.4v94.9h-11.3V64.6h15l33.4 94.3.4.1.2-94.4h11.3v112.1zM757.7 175.9l-11 3-8.9-36.8h-30.5l-8.7 36.8-11.2-3 28.4-111.3h13.4l28.5 111.3zM735.2 132l-12.5-52.3-12.8 52.3h25.3zM857.8 143.1c0 11.2-2.6 19.6-7.9 25.2-5.3 5.6-12 8.4-20.3 8.4h-36.1v-10.1h9.1V74.7h-9.1V64.6h34.3c6.5 0 12.3 2.6 17.3 7.7 5 5.2 7.6 12 7.6 20.5 0 4.7-1 8.9-2.9 12.7-2 3.8-5 6.8-9 9 6.1 2.7 10.4 6.4 13.1 11 2.6 4.7 3.9 10.6 3.9 17.6zm-16.9-50.2c0-6.7-1.6-11.4-4.9-14.1-3.3-2.7-8.5-4-15.6-4h-6.6v36h10.1c11.3-.1 17-6.1 17-17.9zm5.2 50.1c0-8-1.7-13.6-5.2-17.1-3.5-3.4-8.4-5.1-14.8-5.1h-12.3v45.9h15.3c5.3 0 9.4-2 12.4-5.9 3.1-3.9 4.6-9.9 4.6-17.8zM400.3 288.8h-17v-4.1h6.2v-37.4h-6.2v-4.1h17v4.1H394v37.4h6.2v4.1zM444.9 247.3h-9.7v41.5h-4.6v-41.5h-9.9v-4.1h24.1v4.1zM526.6 276.6c0 3.7-1 6.8-3 9.2-2 2.4-4.8 3.6-8.5 3.6-3.8 0-6.6-1.1-8.4-3.3-1.8-2.2-2.9-5.3-3.3-9.3l4.6-.6c.4 3 1 5.2 2 6.7s2.7 2.2 5.3 2.2c2.1 0 3.7-.7 4.9-2.1 1.2-1.4 1.8-3.4 1.8-6.1 0-2.7-.7-4.7-2-6.1-1.3-1.4-3.6-3-6.7-4.8-3.2-1.8-5.4-3.5-6.7-5-1.3-1.5-2-3.8-2-6.9 0-3.2 1-5.9 2.9-8.2 2-2.3 4.5-3.4 7.7-3.4 3 0 5.4.9 7.2 2.8 1.8 1.9 3 4.4 3.6 7.5l-4.4.7c-.5-2-1.2-3.6-2.1-4.9-1-1.2-2.4-1.8-4.2-1.8-2 0-3.5.7-4.5 2.1-1 1.4-1.5 3.1-1.5 5.2 0 1.9.4 3.4 1.3 4.4.8 1 3 2.5 6.5 4.6 3.5 2.1 5.9 4 7.4 5.8 1.4 1.8 2.1 4.4 2.1 7.7zM568.7 266c0 5.9-.7 11.3-2.2 16.2-1.5 4.9-5 7.3-10.5 7.3-4.4 0-7.6-1.9-9.6-5.6-2-3.7-3-9.7-3-17.9 0-6.3.8-11.7 2.4-16.4 1.6-4.7 5-7 10.3-7 4.3 0 7.5 1.9 9.6 5.6 2 3.7 3 9.6 3 17.8zm-4.8 0c0-6.3-.4-11-1.3-14.2-.8-3.2-3-4.9-6.6-4.9-3.5 0-5.7 1.8-6.6 5.3-.9 3.5-1.3 8.1-1.3 13.8 0 6.7.5 11.5 1.6 14.6 1.1 3.1 3.2 4.6 6.2 4.6 4.2 0 6.5-2.1 7-6.4.8-4.3 1-8.6 1-12.8zM611.5 288.8h-23.3v-45.7h4.6v41.5h18.8v4.2zM649.4 277.7c0 3.5-1 6.3-3.1 8.5-2.1 2.1-4.8 3.2-8.1 3.2-3.4 0-6.1-1.1-8.1-3.2s-3-4.9-3-8.3v-34.8h4.6v33.2c0 2.8.4 4.9 1.3 6.5.9 1.5 2.6 2.3 5.3 2.3 2.6 0 4.3-.8 5.2-2.4.9-1.6 1.4-3.7 1.4-6.4v-33.2h4.6v34.6zM691.3 247.3h-9.7v41.5H677v-41.5h-9.9v-4.1h24.1v4.1zM728.8 288.8h-17v-4.1h6.2v-37.4h-6.2v-4.1h17v4.1h-6.2v37.4h6.2v4.1zM774 266c0 5.9-.7 11.3-2.2 16.2-1.5 4.9-5 7.3-10.5 7.3-4.4 0-7.6-1.9-9.6-5.6-2-3.7-3-9.7-3-17.9 0-6.3.8-11.7 2.4-16.4 1.6-4.7 5-7 10.3-7 4.3 0 7.5 1.9 9.6 5.6 2 3.7 3 9.6 3 17.8zm-4.7 0c0-6.3-.4-11-1.3-14.2-.8-3.2-3-4.9-6.6-4.9-3.5 0-5.7 1.8-6.6 5.3-.9 3.5-1.3 8.1-1.3 13.8 0 6.7.5 11.5 1.6 14.6 1.1 3.1 3.2 4.6 6.2 4.6 4.2 0 6.5-2.1 7-6.4.7-4.3 1-8.6 1-12.8zM814.7 288.8h-6.1l-13.7-38.5-.1-.2v38.6h-4.6V243h6.1l13.6 38.4h.2l.1-38.4h4.6v45.8zM855.1 276.6c0 3.7-1 6.8-3 9.2-2 2.4-4.8 3.6-8.5 3.6-3.8 0-6.6-1.1-8.4-3.3-1.8-2.2-2.9-5.3-3.3-9.3l4.6-.6c.4 3 1 5.2 2 6.7s2.7 2.2 5.3 2.2c2.1 0 3.7-.7 4.9-2.1 1.2-1.4 1.8-3.4 1.8-6.1 0-2.7-.7-4.7-2-6.1-1.3-1.4-3.6-3-6.7-4.8-3.2-1.8-5.4-3.5-6.7-5-1.3-1.5-2-3.8-2-6.9 0-3.2 1-5.9 2.9-8.2 2-2.3 4.5-3.4 7.7-3.4 3 0 5.4.9 7.2 2.8 1.8 1.9 3 4.4 3.6 7.5l-4.4.7c-.5-2-1.2-3.6-2.1-4.9-1-1.2-2.4-1.8-4.2-1.8-2 0-3.5.7-4.5 2.1-1 1.4-1.5 3.1-1.5 5.2 0 1.9.4 3.4 1.3 4.4.8 1 3 2.5 6.5 4.6 3.5 2.1 5.9 4 7.4 5.8 1.4 1.8 2.1 4.4 2.1 7.7zM181.6 0H179v50.4h-27.8V0h-2.6C66.5 0 0 74.3 0 165.9c0 61.4 29.9 115 74.3 143.7l27.3 1.1-5.8 10.4c14.7 6.2 30.6 10 47.1 10.6l8.3-14.3V97.1H179v234.6h2.6c82.1 0 148.6-74.3 148.6-165.9S263.7 0 181.6 0zm-80 255.2S74 234 67.9 181.2s33.7-85.9 33.7-85.9v159.9zm160.7-74c-6.1 52.8-33.7 74-33.7 74V95.3s39.8 33.1 33.7 85.9z" class="fill-[#49045D] dark:fill-[#fff]"/></svg>
+                  <div class="nav-sm-primary fw-bold mt-1 text-light-gray lh-lg">HaHuJobs is a cloud based product owned and manged by a technology consulting firm called Minab IT solutions PLC. Minab was founded in 2014 and has an extensive experience in software development for the past nine years.</div>
+                </div>
+                <div class="text-start">
+                  <div class="icon-text-size text-dark-color text-light-gray fw-bold">Powered By</div>
+                  <img src="image/svg/Logo.png" alt="" class="icon-lg">
+                    <p class="text-dark-color fw-bold"><span class="text-green-color">ለሀገር ልጅ</span> በሀገር ልጅ </p>
+                </div>
+              </div>
+              <hr>
+              <div class="d-flex justify-content-between my-3 align-content-center">
+                <div class="d-flex ">
+                  <div class="text-light-gray mx-3 nav-sm-primary">Privacy Policy</div>
+                  <div class="text-light-gray nav-sm-primary">This is a clon Website of HahuJobs By Kaleb Kassu</div>
+                </div>
+                <div class="d-flex">
+                  <svg class="svg-link me-4"><use xlink: href="image/svg/bootstrap-icons.svg#telegram"></use></svg>
+                  <svg class="svg-link me-4"><use xlink: href="image/svg/bootstrap-icons.svg#twitter"></use></svg>
+                  <svg class="svg-link me-4"><use xlink: href="image/svg/bootstrap-icons.svg#facebook"></use></svg>
+                  <svg class="svg-link me-4"><use xlink: href="image/svg/bootstrap-icons.svg#tiktok"></use></svg>
+              </div> 
+              </div>
+            </div>
+          </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

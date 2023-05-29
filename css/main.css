@@ -1,0 +1,105 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(241,241,241);
+} 
+
+/* custom font size */
+.btn-sm-primary{
+    font-size: .7rem;
+}
+.btn-sm-secondery{
+    font-size: .875rem;
+}
+.nav-sm-primary{
+    font-size: .8rem;
+}
+.icon-text-size{
+    font-size: .85rem;
+}
+.svg-icon{
+    width: 1rem;
+    height: 1rem;
+    fill: white;
+}
+/* custom color */
+.btn-primary-bg{
+    background-color: rgb(72,150,137);
+}
+.text-green-color{
+    color: rgb(72,150,137);
+}
+.text-dark-color{
+    color: rgb(68,79,96);
+}
+.text-light-gray{
+    color: rgb(93,112,140)
+}
+/* custom width */
+.w-30{
+    width: 30%;
+}
+.w-60{
+    width: 60%;
+}
+/* img size */
+.card-img{
+    width: 4rem;
+    margin-bottom: .5rem;
+}
+.svg-link{
+    width: 1rem;
+    height: 1rem;
+    fill: rgb(72,150,137);
+}
+.img-card{
+    width: 20rem;
+    height: auto;
+}
+.card-icon-size{
+    width: 2rem;
+    height: 2rem;
+    fill: rgb(128,203,196);
+}
+.footer-svg{
+    fill: rgb(73,7,93);
+    width: 8.5rem;
+}
+/* Flex */
+.flex-50{
+    flex: 0 0 50%;
+}
+/* some User Interaction */
+.input-group{
+    transition: all .4s ease-in-out;
+}
+.box{
+    transition: all .2s ease;
+}
+
+.w-40{
+    width: 40%;
+}
+.form-control::placeholder{
+    color: rgb(68,79,96);
+    font-size: .875rem;
+    font-weight: bold;
+}
+.box:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.box:active{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.fw-bold-n{
+    font-weight: 800;
+}
+.logo{
+    width: 6rem;
+    height: 2.2rem;
+    margin-left: 3rem;
+}
+.icon-lg{
+    width: 12rem;
+    height: 3rem;
+}
